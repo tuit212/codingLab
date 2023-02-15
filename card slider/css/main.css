@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #efefef;
+}
+
+.card .image-box{
+    height: 200px;
+}
+.card .image-box img{
+    height: 100%;
+}
+.card .profile-details img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.card .profile-details {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    padding: 15px;
+}
+.profile-details .name-job .name{
+    font-size: 15px;
+}
